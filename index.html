@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Compumax</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+  </head>
+  <body>
+    <header>
+      <h1>Compumax</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio" data-scroll>Inico</a></li>
+          <li><a href="#pcs" data-scroll>PCs</a></li>
+          <li><a href="#accesorios" data-scroll>Accesorios</a></li>
+          <li><a href="#ofertas" data-scroll>Ofertas</a></li>
+          <li><a href="#contacto" data-scroll>Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="inicio" class="parallax-window" data-parallax="scroll" data-image-src="./img/inicio1.jpg">
+      <h2>Lo mejor en computación</h2>
+      <h3>A los mejores precios</h3>
+      <!-- <a href="#" class="comprar"> <i class="fas fa-shopping-cart"></i> Comprar</a> -->
+      <a href="#pcs"> <i class="fas fa-arrow-circle-down"></i> </a>
+    </section>
+    <section id="pcs">
+      <div class="container">
+        <div class="pc" style="background-image: url(./img/all-in-one.jpg);">
+          <div class="inner_container">
+            <!-- <div class="inner_container"> -->
+                <h3>All In One</h3>
+                <a href="#">Comprar</a>
+            <!-- </div> -->
+          </div>
+        </div>
+
+        <div class="pc" style="background-image: url(./img/laptop.jpg);">
+          <div class="inner_container">
+            <h3>Laptops</h3>
+            <a href="#">Comprar</a>
+          </div>
+        </div>
+
+        <div class="pc" style="background-image: url(./img/towers.jpg);">
+          <div class="inner_container">
+            <h3>Towers</h3>
+            <a href="#">Comprar</a>
+          </div>
+        </div>
+
+        <div class="pc" style="background-image: url(./img/pcgamer.jpg);">
+          <div class="inner_container">
+            <h3>Gaming Desktops</h3>
+            <a href="#">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="accesorios">
+      <div class="accesoriosHeader">
+          <h3>Los mejores accesorios de todas las marcas</h3>
+          <a href="#">Ver accesorios</a>
+      </div>
+      <div class="accesorios-categorias">
+        <h2>VER POR CATEGORIAS</h2>
+        <div style="margin: 0 auto">
+          <div class="categoria">
+            <div class="icono">
+              <i class="fas fa-headphones"></i>
+            </div>
+            <p>headphones</p>
+          </div>
+          <div class="categoria">
+            <div class="icono">
+              <i class="far fa-keyboard"></i>
+            </div>
+            <p>Teclados</p>
+          </div>
+          <div class="categoria">
+            <div class="icono">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <p>Pantallas</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section id="ofertas">
+    <h2>OFERTAS</h2>
+      <div class="oferta" style="background-image: url(./img/oferta1.png);">
+        <div class="descripcion">
+          <p>HP 27er 27-inch Display</p>
+          <p class="old_price">$3,200</p>
+          <p>$2,800</p>
+        </div>
+      </div>
+      <div class="oferta" style="background-image: url(./img/oferta2.png);">
+        <div class="descripcion">
+          <p>Teclado OMEN 1100</p>
+          <p class="old_price">$3,200</p>
+          <p>$2,800</p>
+        </div>
+      </div>
+      <div class="oferta" style="background-image: url(./img/oferta3.png);">
+        <div class="descripcion">
+          <p>Gaming Mouse Pad 200</p>
+          <p class="old_price">$300</p>
+          <p>$259</p>
+        </div>
+      </div>
+      <div class="oferta" style="background-image: url(./img/oferta4.png);">
+        <div class="descripcion">
+          <p>OMEN by HP 32 32-inch Display</p>
+          <p class="old_price">$5,534</p>
+          <p>$4,899</p>
+        </div>
+      </div>
+    </section>
+    <section id="contacto">
+      <div class="inputs">
+        <h2>Contactanos</h2>
+        <input type="text" name="Nombre" value="" placeholder="NOMBRE">
+        <input type="text" name="Email" value="" placeholder="EMAIL">
+        <textarea name="mensaje" rows="10" cols="80" placeholder="MENSAJE"></textarea>
+        <button type="button" name="enviar">Enviar</button>
+      </div>
+      <div class="contact_info">
+        <table>
+          <tr>
+            <td width="25%"><i class="fas fa-map-marker-alt"></td>
+            <td>#5277 Fracisco Javier Mina, Buenaventura, Chih.</td>
+          </tr>
+          <tr>
+            <td width="25%"><i class="fas fa-envelope"></i></td>
+            <td>Example@example.com</td>
+          </tr>
+          <tr>
+            <td width="25%"><i class="fas fa-mobile"></i></td>
+            <td>(555) 555-555</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./js/parallax.min.js"></script>
+    <script src="./js/smooth-scroll.polyfills.min.js"></script>
+    <script type="text/javascript">
+        scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+  </body>
+</html>
