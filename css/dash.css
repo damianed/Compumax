@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Oswald', sans-serif;
+  background-color: #fcfcfc;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Roboto', sans-serif;
+}
+button, .btn{
+  width: 150px;
+  height: 25px;
+  padding: 5px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: #747474;
+  text-decoration: none;
+  color: white;
+}
+button.warning, a.warning{
+  color: white;
+  background: #ecc700;
+}
+button.danger, a.danger{
+  color: white;
+  background: #bd380f;
+}
+button.alternativo, a.alternativo{
+  background-color: #0f6dbd;
+  color:white;
+}
+input[type="text"], input[type="email"], input[type="number"], input[type="date"], input[type="search"], textarea{
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 30px;
+  padding: 20px;
+  color: #4d4d4d;
+  font-weight: bold;
+  font-size: 1.1rem;
+  background-color: white;
+}
+button.icon, a.icon{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #999;
+}
+header{
+  background-color: black;
+  color: white;
+  height: 70px;
+  border-bottom: #ccc;
+  width: 100%;
+  z-index: 100;
+}
+header > h1{
+  margin-left: 10%;
+  width: 20%;
+  float:left;
+  margin-top: 15px;
+}
+header > nav{
+  float: right;
+  width: auto;
+  margin-right: 10%;
+  padding-top: 10px;
+}
+header > nav > img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  display: block;
+  float: left;
+}
+header > nav > h2{
+  float: left;
+  font-size: 1.2rem;
+  line-height: 2;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+aside{
+  width: 20%;
+  float: left;
+  margin-top:70px;
+}
+main{
+  float: left;
+  width: 80%;
+  margin-top:70px;
+}
+aside > nav > ul > li {
+  list-style: none;
+}
+fieldset{
+  border: none;
+  padding: 5px;
+}
+.col60{
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+}
+.col30{
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin-left: 9%;
+}
